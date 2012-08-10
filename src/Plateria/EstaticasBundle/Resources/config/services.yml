@@ -1,0 +1,7 @@
+parameters:
+#    estaticas.example.class: Plateria\EstaticasBundle\Example
+
+services:
+#    estaticas.example:
+#        class: %estaticas.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

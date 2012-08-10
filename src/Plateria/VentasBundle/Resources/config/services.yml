@@ -1,0 +1,7 @@
+parameters:
+#    ventas.example.class: Plateria\VentasBundle\Example
+
+services:
+#    ventas.example:
+#        class: %ventas.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

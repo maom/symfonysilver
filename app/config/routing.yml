@@ -1,0 +1,47 @@
+CategoriasBundle:
+    resource: "@CategoriasBundle/Resources/config/routing.yml"
+    prefix:   /
+
+EstaticasBundle:
+    resource: "@EstaticasBundle/Resources/config/routing.yml"
+    prefix:   /
+
+AyudaBundle:
+    resource: "@AyudaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+NotasBundle:
+    resource: "@NotasBundle/Resources/config/routing.yml"
+    prefix:   /
+
+VentasBundle:
+    resource: "@VentasBundle/Resources/config/routing.yml"
+    prefix:   /
+
+CategoriaBundle:
+    resource: "@CategoriaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ProductoBundle:
+    resource: "@ProductoBundle/Resources/config/routing.yml"
+    prefix:   /
+
+TiendasBundle:
+    resource: "@TiendasBundle/Resources/config/routing.yml"
+    prefix:   /
+
+UsuariosBundle:
+    resource: "@UsuariosBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pagina_ayuda:
+    pattern: /ayuda
+    defaults: { _controller: AyudaBundle:Default:ayuda}
+
+pagina_estatica:
+    pattern: /sitio/{pagina}/
+    defaults: { _controller: EstaticasBundle:Sitio:estatica}
+# Internal routing configuration to handle ESI
+#_internal:
+#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#   prefix:   /_internal

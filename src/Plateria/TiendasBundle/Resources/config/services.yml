@@ -1,0 +1,7 @@
+parameters:
+#    tiendas.example.class: Plateria\TiendasBundle\Example
+
+services:
+#    tiendas.example:
+#        class: %tiendas.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
